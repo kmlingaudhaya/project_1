@@ -15,6 +15,17 @@
       border: solid 2px red;
     } */
 
+@font-face {
+  font-family: "Clash Display";
+  src: url("clash-display/ClashDisplayRegular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Clash Display";
+}
+
 .row {
   /* border: solid 2px blue; */
   width: 1090px;
@@ -183,11 +194,21 @@
 }
 
 .description {
-  font-family: Clash Display;
-  font-size: 18px;
+  position: relative;
+  top: 0px;
+  width: 562px;
+  height: 140px;
+  font-family: "Clash Display";
+  font-style: normal;
   font-weight: 500;
+  font-size: 18px;
   line-height: 28px;
-  text-align: left;
+  /* or 156% */
+  text-transform: capitalize;
+
+  color: #000000;
+
+  opacity: 0.5;
 }
 
 .row3 {
@@ -200,8 +221,18 @@
 }
 
 .get_started {
-  width: 250px;
-  height: 90px;
+  width: 190px;
+  height: 70px;
+}
+
+.get_started,
+.watch_video img {
+  transition: transform 0.1s ease-in-out;
+}
+
+.get_started:hover,
+.watch_video:hover {
+  transform: scale(1.08);
 }
 
 .row3 > * {
@@ -366,9 +397,10 @@
   display: flex;
   flex-direction: column;
 
-  width: 750px;
+  width: 700px;
   height: 719px;
-  border: #000000 solid 2px;
+  /* border: #000000 solid 2px; */
+  margin-left: -20px;
 }
 
 .blur4 {
@@ -470,11 +502,69 @@
 
 .content3 {
   position: relative;
-  top: -210px;
-  left: 0px;
-  font-family: Clash Display;
-  font-size: 18px;
+  top: -190px;
+  width: 562px;
+  height: 140px;
+  font-family: "Clash Display";
+  font-style: normal;
   font-weight: 500;
+  font-size: 18px;
   line-height: 28px;
+  /* or 156% */
+  text-transform: capitalize;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.p4r1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bullet2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  top: 300px;
+}
+
+.heading2 {
+  font-family: Clash Display;
+  font-size: 48px;
+  letter-spacing: -4px;
+
+  line-height: 0px;
   text-align: left;
+  margin-left: 100px;
+  position: relative;
+  top: 290px;
+  left: -90px;
+}
+
+.p4content > p {
+  /* Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam. */
+
+  position: relative;
+  top: 0px;
+  width: 562px;
+  height: 140px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-transform: capitalize;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.p4content {
+  position: relative;
+  top: 300px;
+  left: 20px;
 }
