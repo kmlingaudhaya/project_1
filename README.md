@@ -29,7 +29,7 @@ To set up a local development environment using XAMPP, follow these steps:
 
 2. **Start Apache and MySQL Servers**:
    - After installation, start the Apache server and MySQL database from the XAMPP control panel.
-   - For this project just starting the server is enough as it is just a static web page with only html and css.
+   - The above step is not necessary here as it is a static web page in html and css alone. So right click on the index.html file and open in a live browser
    - You can typically find the XAMPP control panel in the installation directory.
 
 3. **Place Project in htdocs Directory**:
