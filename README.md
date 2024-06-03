@@ -27,10 +27,10 @@ To set up a local development environment using XAMPP, follow these steps:
    - Download XAMPP from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
    - Install XAMPP by following the installation instructions provided for your operating system.
 
-2. **Start Apache and MySQL Servers**:
-   - After installation, start the Apache server and MySQL database from the XAMPP control panel.
-   - The above step is not necessary here as it is a static web page in html and css alone. So right click on the index.html file and open in a live browser
-   - You can typically find the XAMPP control panel in the installation directory.
+2. **Open the Project in a Web Browser**:
+   - After installation, open the project folder and locate the `index.html` file.
+   - Right-click on the `index.html` file and select "Open with" and choose your preferred web browser.
+   - Alternatively, you can directly double-click on the `index.html` file to open it in your default web browser.
 
 3. **Place Project in htdocs Directory**:
    - Place the cloned project folder inside the `htdocs` directory of your XAMPP installation.
