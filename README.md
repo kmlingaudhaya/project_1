@@ -23,7 +23,7 @@ git clone https://github.com/kmlingaudhaya/project_1.git
 
 To set up a local development environment using XAMPP, follow these steps:
 
-1. **Download and Install XAMPP**: 
+1. **Download and Install XAMPP**: (complimentary, not necessary)
    - Download XAMPP from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
    - Install XAMPP by following the installation instructions provided for your operating system.
 
