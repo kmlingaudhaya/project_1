@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "flex.html",
+      "src": "index.html",
       "use": "@vercel/static"
     },
     {
@@ -17,7 +17,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/flex.html"
+      "dest": "/index.html"
     }
   ]
 }
