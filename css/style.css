@@ -292,6 +292,32 @@
   width: 750px;
   border: #000000 solid 2px;
 }
+.star2 {
+  position: relative;
+  top: -330px;
+  left: -600px;
+}
+.p2r2 img {
+  position: relative;
+  top: -190px;
+  left: 50px;
+}
+
+.p2r3 img {
+  position: relative;
+  width: 249.25px;
+  height: 504.32px;
+  top: -275px;
+  left: 225px;
+}
+
+.p2r4 img {
+  position: relative;
+  width: 222.26px;
+  height: 480.96px;
+  top: -445px;
+  left: 240px;
+}
 
 .page3 {
   position: relative;
