@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "flex.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/flex.html"
+    }
+  ]
+}
